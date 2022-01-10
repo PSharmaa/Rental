@@ -1,0 +1,719 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.Rentastics-main-title{
+    font-size:60px;
+    color:#112884;
+    font-family:poppins-bold;
+}
+.Rentastics-main-span{
+    opacity:0.7;
+}
+.Rentastics-title{
+    font-size:40px;
+    color:#112884;
+    font-family:poppins-semi-bold;
+}
+.Rentastics-desc{
+    font-size:16px;
+    color:#112884;
+    width:auto;
+    font-family:poppins-regular;
+}
+.Rentastics-sub-title{
+    color:#112884;
+    font-size:35px;
+    font-family:poppins-semi-bold;
+    white-space: pre-line;
+}
+.Rentastics-sub-2-title{
+    color:#112884;
+    font-size:30px;
+    font-family:poppins-semi-bold;
+}
+h6{
+    color:#112884;
+    font-family:poppins-semi-bold;
+    font-size:20px;
+}
+.Rentastics-sub-3-title{
+    color:#112884;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family:poppins-semi-bold;
+}
+.Rentastics-button{
+    background-color:#112884;
+    color:#FFFFFF;
+    height:70px;
+    width:200px;
+    border-radius:40px;
+    opacity:0.9;
+    border:none;
+    outline:none;
+    font-family:poppins-regular;
+    margin-top:100px;
+}
+.Rentastics-button:focus{
+    border:none;
+    outline:none;
+}
+.Rentastics-main-desc{
+    color:#112884;
+    font-size:18px;
+    font-family:poppins-regular;
+}
+.navbar-light .navbar-brand {
+    color:#112884;
+    font-size:40px;
+    font-family:poppins-bold;
+}
+.navbar-light .navbar-brand:hover {
+    color:#112884;
+}
+.navbar-toggler:focus {
+    outline: 0;
+    box-shadow:none;
+}
+.navbar-light .navbar-brand:focus{
+    color:#112884;
+}
+.navbar-nav .nav-link {
+    color:#112884 !important;
+    padding-right: 2rem !important;
+    padding-left: 1rem !important;
+    padding-top: 17px;
+    font-family:poppins-regular;
+}
+.navbar-light .navbar-text {
+    color:#112884;
+    padding-top:17px;
+    font-family:poppins-regular;
+}
+.text-img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+.apartment-search{
+    background-color: white;
+    box-shadow: 0px 5px 22px #00000033;
+    width:100%;
+    padding:20px;
+    border-left:solid #112884;
+}
+.search-col-2{
+    display: flex;
+    justify-content:space-between;
+}
+.search-border{
+    border-right:1px solid #00000033;
+}
+.Rentastics-select{
+    border:none;
+    outline:none;
+    background-color:transparent;
+    color:#00000033
+}
+.Rentastics-search-button{
+    background-color:#112884;
+    color:#FFFFFF;
+    height: 56px;
+    width: 140px;
+    margin-top:6px;
+    border-radius:40px;
+    opacity:0.8;
+    border:none;
+    outline:none;
+    font-family:poppins-regular;
+}
+.Rentastics-search-button:focus{
+    border:none;
+    outline:none;
+}
+.ml-cf-img{
+    width:90%;
+}
+.market-leader-col-first{
+    width:100%;
+}
+.market-leader-col-second h2{
+    margin-top:50px;
+    white-space: pre-line;
+}
+.market-leader-col-second p{
+    margin-top:25px;
+}
+.common{
+    width:100%;
+    background-color: white;
+    box-shadow: 10px 10px 10px #ccacac33;
+    height:99%;
+    margin-left:10px;
+    margin-right:10px;
+   
+}
+.common-img{
+    width:100%;
+}
+.arrow-pos{
+    position:relative;
+}
+.nn2{
+    position:absolute;
+    right:30px;
+    top:10px;
+    width:20px;
+    cursor: pointer;
+}
+.slich-pos{
+    position:relative;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height:auto;
+    min-height: 1px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.disc-slich{
+    margin-right:50px;
+}
+.true-dream-col-first{
+    background-color: white;
+    box-shadow: 0px 5px 22px #00000033;
+    width:100%;
+    padding:35px;
+}
+.dream-flex-1{
+    display: flex;
+}
+.true-heading{
+    margin-left:20px;
+}
+.true-dream-col-second{
+    position:relative;
+}
+.circle-1{
+    display:flex;
+    width:50px;
+    height:50px;
+    background-color:#D3D3D3;
+    border-radius:50%;
+    position:relative;
+}
+.span-img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.ture-dream-sec{
+    position:relative;
+}
+.building-bg{
+    position: absolute;
+    z-index: -1;
+    width:55%;
+    top: 50px;
+    right: 0;
+}
+.mitchells-sec{
+    margin-top:200px;
+    margin-bottom:40px;
+}
+.mitchells-first-img{
+    width:300px;
+    border-radius: 150px 150px 0px 150px;
+}
+.mitchells-col-first{
+    display: flex;
+    justify-content:center;
+}
+.mitchells-col-second h6{
+    color:#112884;
+    font-size:18px;
+    font-family:poppins-bold;
+}
+.mitchells-col-second p{
+    color:#808080;
+    font-size:14px;
+    font-family:poppins-regular;
+}
+.footer-sec{
+    background-color:#282F49;
+    padding:20px;
+}
+.footer-common h6{
+    color:white;
+    font-size:20px;
+    font-family:poppins-medium;
+}
+.footer-common ul li {
+    color:#808080;
+    font-size:15px;
+    margin-left:-30px;
+    list-style-type: none;
+}
+.footer-common ul li a{
+    color:#808080;
+    text-decoration: none;
+    font-family:poppins-regular;
+}
+.footer-common ul li a:hover{
+    color:#6B89FF;
+}
+.Rentastics-footer{
+    color: #6B89FF;
+    font-size:45px;
+}
+.hr-line{
+    color:#FFFFFF;
+}
+.hr-common-line{
+    color:#FFFFFF;
+    width:80%;
+}
+.bottom-footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left:-50px;
+}
+.bottom-footer ul li {
+    padding-left:20px;
+}
+.bottom-footer ul li a{
+    color:#808080;
+    text-decoration: none;
+    font-family:poppins-regular;
+    font-size:14px;
+}
+.bottom-footer ul li a:hover{
+    color:#6B89FF;
+}
+.footer-bottom-second-col p{
+    display: flex;
+    justify-content: flex-end;
+    color:#808080;
+    font-size: 14px;
+    font-family:poppins-regular;
+}
+.footer-span{
+    color:#6B89FF;
+    margin-left: 5px;
+}
+/* media quaery start hear */
+@media screen and (max-width: 1400px) {
+.Rentastics-main-title {
+   font-size: 52px;
+}
+.Rentastics-title {
+  font-size: 35px;
+}
+.Rentastics-desc {
+  font-size: 15px;
+}
+.Rentastics-title {
+  font-size: 30px;
+}
+.Rentastics-main-desc {
+  font-size: 15px;
+}
+.Rentastics-sub-2-title {
+  font-size: 25px;
+}
+.Rentastics-button {
+  height: 60px;
+  width: 180px;
+  margin-top: 18px;
+}
+.right-arrow {
+    width: 15px;
+    margin-right: 78px;
+    margin-top: -480px;
+}
+.Rentastics-sub-3-title {
+    font-size: 17px;
+}
+.market-leader-col-second h2 {
+    margin-top: 0px;
+}
+.circle-1 {
+    width: 45px;
+    height: 45px;
+}
+.span-img {
+    width: 16px;
+    height: 16px;
+    top: 14px;
+    left: 15px;
+}
+.Rentastics-sub-title {
+    font-size: 30px;
+}
+.Rentastics-sub-title {
+    font-size: 30px;
+}
+.mitchells-sec {
+    margin-top: 100px;
+}
+.mitchells-col-second p {
+    font-size: 13px;
+}
+.footer-common h6 {
+    font-size: 19px;
+}
+.footer-common ul li {
+    font-size: 14px;
+}
+.Rentastics-footer {
+    color: #6B89FF;
+    font-size: 40px;
+}
+}
+/* media query for 991 to 1199 */
+@media screen and (max-width: 1199px) {
+.Rentastics-main-title {
+     font-size: 46px;
+    }
+.Rentastics-title {
+     font-size: 27px;
+}
+.Rentastics-desc {
+    font-size: 13px;
+}
+.Rentastics-title {
+    font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+}
+.navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 0.2rem !important;
+}
+.navbar-light .navbar-brand {
+    color: #112884;
+    font-size: 35px;
+    font-family: poppins-bold;
+}
+.market-leader-col-second p {
+    margin-top: 7px;
+}
+.ml-cf-img {
+    width: 100%;
+}
+.Rentastics-button {
+    height: 55px;
+    width: 160px;
+    margin-top: 30px;
+}
+.Rentastics-select {
+    font-size: 13px;
+}
+.Rentastics-search-button {
+    height: 50px;
+    width: 130px;
+}
+.nn2 {
+    top: 5px;
+}
+.services img {
+    margin-right: 15px;
+    width: 20px;
+}
+.icon h6 {
+    color: #112884;
+    font-size: 15px;
+}
+.Rentastics-sub-3-title {
+    font-size: 16px;
+}
+.Rentastics-sub-2-title {
+    font-size: 22px;
+}
+.building-bg {
+    width: 61%;
+}
+.Rentastics-sub-title {
+    font-size: 25px;
+}
+.mitchells-col-second h6 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.mitchells-col-second p {
+    font-size: 12px;
+}
+.mitchells-first-img {
+    width: 200px;
+    border-radius: 150px 150px 0px 150px;
+}
+} 
+/*media query for 768 to 991 */
+@media screen and (max-width: 991px) {
+.Rentastics-main-title {
+    font-size: 33px;
+}
+.Rentastics-title {
+    font-size: 22px;
+}
+.Rentastics-desc {
+    font-size: 12px;
+}
+.Rentastics-button {
+    height: 50px;
+    width: 130px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+}
+navbar-light .navbar-brand {
+    font-size: 30px;
+}
+.Rentastics-search-button {
+    height: 45px;
+    width: 115px;
+    font-size: 13px;
+}
+.navbar-light .navbar-text {
+    font-size: 12px;
+}
+.Rentastics-title {
+    font-size: 20px;
+}
+.Rentastics-sub-3-title {
+    font-size: 14px;
+}
+.Rentastics-main-desc {
+    font-size: 14px;
+}
+.Rentastics-sub-2-title {
+    font-size: 16px;
+}
+.circle-1 {
+    width: 35px;
+    height: 35px;
+}
+.span-img {
+    width: 14px;
+    height: 14px;
+    top: 11px;
+    left: 11px;
+}
+.true-dream-col-first {
+    padding: 11px;
+}
+.building-bg {
+    width:63%;
+}
+Rentastics-sub-title {
+    font-size: 20px;
+}
+.mitchells-col-second h6 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.Rentastics-sub-title {
+    font-size: 20px;
+}
+.footer-common ul li {
+    font-size: 11px;
+}
+.bottom-footer ul li a {
+    font-size: 12px;
+}
+.footer-bottom-second-col p {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 768px) {
+.Rentastics-main-title {
+    font-size: 24px;
+}
+.Rentastics-search-button {
+    height: 40px;
+    width: 90px;
+}
+.market-leader-col-second p {
+    margin-top: 20px;
+}
+.Rentastics-button {
+    height: 40px;
+    width: 100px;
+    font-size: 12px;
+}
+.Rentastics-main-desc {
+    font-size: 13px;
+}
+.Rentastics-sub-3-title {
+    font-size: 11px;
+    margin-left: 7px;
+}
+.icon {
+    margin-left: 7px;
+}
+.Rentastics-sub-2-title {
+    font-size: 13px;
+}
+.building-bg {
+    width: 63%;
+    height: 96%;
+}
+.Rentastics-sub-title {
+    font-size: 15px;
+}
+.mitchells-col-second h6 {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.mitchells-col-second p {
+    font-size: 11px;
+}
+.mitchells-first-img {
+    width: 150px;
+}
+.Rentastics-footer {
+    font-size: 30px;
+}
+.footer-common h6 {
+    font-size: 15px;
+}
+.footer-common ul li {
+    font-size:8px;
+}
+.bottom-footer ul li a {
+    font-size: 10px;
+}
+.footer-bottom-second-col p {
+    font-size: 10px;
+}
+.footer-bottom-second-col p {
+    font-size: 9px;
+    margin-top: 11px;
+}
+.hr-common-line{
+    margin-top:0px;
+}
+.Rentastics-sub-3-title {
+    font-size: 10px;
+    margin-left: 7px;
+}
+.bath {
+    height: 13px;
+    width: 12px;
+}
+.icon h6 {
+    color: #112884;
+    font-size: 14px;
+}
+.navbar-light .navbar-toggler {
+    color: blue;
+    border:none;
+}
+.navbar-light .navbar-toggler:focus{
+    border:none;
+    outline:none;
+}
+}
+@media screen and (max-width: 576px) {
+.navbar-light .navbar-toggler {
+    color: blue;
+    border:none;
+}
+.navbar-light .navbar-toggler {
+    border-color:transparent;
+}
+.navbar-light .navbar-toggler:focus{
+    border:none;
+    outline:none;
+}
+.Rentastics-main-title {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.market-leader-sec{
+    margin-top:20px;
+}
+apartment-search{
+    margin-top:20px;
+}
+.heading{
+    margin-top:20px;
+}
+.search-border {
+    border-right: none;
+}
+.Rentastics-title {
+    font-size: 22px;
+}
+.Rentastics-sub-3-title {
+    font-size:18px;
+    margin-left: 15px;
+}
+.Rentastics-sub-3-title {
+    font-size: 10px;
+    margin-left: 7px;
+}
+.search-col-2 {
+    margin-top: 15px;
+}
+.icon h6 {
+    color: #112884;
+    font-size:18px;
+}
+.Rentastics-sub-2-title {
+    font-size: 15px;
+}
+.building-bg {
+    display: none;
+}
+.hr-common-line {
+    margin-top: 0px;
+    width: 57px;
+}
+.mitchells-sec {
+    margin-top: 35px;
+}
+.mitchells-col-second p {
+    font-size: 11px;
+    text-align: center;
+}
+.mitchells-col-second h3 {
+    font-size: 15px;
+    text-align: center;
+    margin-top:20px;
+}
+.mitchells-col-second h6 {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+footer-sec{
+    margin-top:-50px;
+}
+}
+@media screen and (max-width:480px) { 
+.nn2 {
+    top: 40px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+.heading p{
+    margin-top:-40px;
+    text-align: end;
+}
+}
+
